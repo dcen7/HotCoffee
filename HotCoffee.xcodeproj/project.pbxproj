@@ -14,6 +14,8 @@
 		649493D829E4824C00EB1DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649493D629E4824C00EB1DF9 /* LaunchScreen.storyboard */; };
 		649493E029E4827B00EB1DF9 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649493DF29E4827B00EB1DF9 /* OrdersTableViewController.swift */; };
 		649493E329E483EB00EB1DF9 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649493E229E483EB00EB1DF9 /* AddOrderViewController.swift */; };
+		649493E629E4A0CF00EB1DF9 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649493E529E4A0CF00EB1DF9 /* Webservice.swift */; };
+		649493E929E4CC2700EB1DF9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649493E829E4CC2700EB1DF9 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		649493D929E4824C00EB1DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		649493DF29E4827B00EB1DF9 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		649493E229E483EB00EB1DF9 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		649493E529E4A0CF00EB1DF9 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		649493E829E4CC2700EB1DF9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		649493CA29E4824B00EB1DF9 /* HotCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				649493E729E4CC1700EB1DF9 /* Models */,
+				649493E429E4A0AF00EB1DF9 /* Services */,
 				649493E129E4831D00EB1DF9 /* Controllers */,
 				649493CB29E4824B00EB1DF9 /* AppDelegate.swift */,
 				649493CD29E4824B00EB1DF9 /* SceneDelegate.swift */,
@@ -76,6 +82,22 @@
 				649493E229E483EB00EB1DF9 /* AddOrderViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		649493E429E4A0AF00EB1DF9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				649493E529E4A0CF00EB1DF9 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		649493E729E4CC1700EB1DF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				649493E829E4CC2700EB1DF9 /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +174,8 @@
 				649493CC29E4824B00EB1DF9 /* AppDelegate.swift in Sources */,
 				649493CE29E4824B00EB1DF9 /* SceneDelegate.swift in Sources */,
 				649493E029E4827B00EB1DF9 /* OrdersTableViewController.swift in Sources */,
+				649493E929E4CC2700EB1DF9 /* Model.swift in Sources */,
+				649493E629E4A0CF00EB1DF9 /* Webservice.swift in Sources */,
 				649493E329E483EB00EB1DF9 /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
